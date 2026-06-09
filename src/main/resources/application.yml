@@ -3,7 +3,7 @@ spring:
     name: tlias-web-management
   #配置数据库的连接信息
   datasource:
-    url: jdbc:mysql://localhost:3306/talis01
+    url: jdbc:mysql://100.99.138.88:3306/talis01
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 1234
@@ -33,3 +33,5 @@ aliyun:
     endpoint: https://oss-cn-beijing.aliyuncs.com
     bucketName: java-ai
     region: cn-beijing
+    accessKeyId: 
+    accessKeySecret:
